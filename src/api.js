@@ -1,4 +1,4 @@
-const BASE=(import.meta.env.VITE_API_URL||'https://serverappdemo.onrender.com').replace(/\/$/,'');
+const BASE=(import.meta.env.VITE_API_URL||'https://api.deltakebab.com').replace(/\/$/,'');
 function errorMessage(payload,status){
  const error=payload?.error;
  if(error?.details){

@@ -15,7 +15,7 @@ This customer app is based on the existing Geoapify-enabled Delta Kebab React cu
 ## Install
 1. Keep your current **optimized Geoapify backend** and Admin Panel. No DB migration or seed is needed.
 2. In `customer/`, run `npm install`, then `npm run dev`.
-3. Set `VITE_API_URL=https://serverappdemo.onrender.com` in `customer/.env` if needed (do not put API secrets here).
+3. Set `VITE_API_URL=https://api.deltakebab.com` in `customer/.env` if needed (do not put API secrets here).
 4. The backend must have `GEOAPIFY_API_KEY`, `DELIVERY_QUOTE_SECRET`, and the admin delivery bands configured.
 5. Verify a real address within 15 km and one beyond 15 km; test promotion, VAT and order submission.
 

@@ -4,7 +4,7 @@ Frontend only. No backend or admin files included.
 
 ## Run
 
-1. Start your existing fixed JSON backend on https://serverappdemo.onrender.com (`npm run dev`).
+1. Start your existing fixed JSON backend on https://api.deltakebab.com (`npm run dev`).
 2. In this customer folder run `npm install` and `npm run dev`.
 3. Open http://localhost:5173.
 4. Optional: copy `.env.example` to `.env` to customize VITE_API_URL.

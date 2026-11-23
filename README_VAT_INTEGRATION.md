@@ -6,7 +6,7 @@ Based on the previous Connected V5 customer website, adapted for the `DeltaKebab
 1. Start your **existing working Categories & VAT server** from its `server` directory: `npm run dev` (default port 5000).
 2. In `deltakebab-customer`, run `npm install`, then `npm run dev`.
 3. Open the URL shown by Vite (typically http://localhost:5173).
-4. If your backend is not on port 5000, copy `.env.example` to `.env` and set `VITE_API_URL` to the backend origin, e.g. `https://serverappdemo.onrender.com`.
+4. If your backend is not on port 5000, copy `.env.example` to `.env` and set `VITE_API_URL` to the backend origin, e.g. `https://api.deltakebab.com`.
 
 ## Data compatibility
 - Branches: `GET /api/v1/restaurants` — only selected branch's menu is shown.
